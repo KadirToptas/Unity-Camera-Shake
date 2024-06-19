@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 454187986}
   - component: {fileID: 454187985}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: Square_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -299,6 +300,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b2663971b743a458e4eb96a7526eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cam: {fileID: 519420032}
+  _startPos: {x: 0, y: 0, z: 0}
+  _shakePower: 0.5
+  _shakeDuration: 0.1
+  _downAmount: 0.5
+  _isShake: 0
 --- !u!1 &542452935
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +329,7 @@ GameObject:
   - component: {fileID: 542452937}
   - component: {fileID: 542452936}
   m_Layer: 0
-  m_Name: Square (2)
+  m_Name: Square_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,7 +413,7 @@ GameObject:
   - component: {fileID: 1899605214}
   - component: {fileID: 1899605213}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Square_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
